@@ -1,0 +1,105 @@
+#container1 {
+    display: flex;
+    height: 60em;
+    #article1 {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        height: 20em;
+        .art1 {
+            background-image: url(../img/nasa.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            color: white;
+            width: 30%;
+            height: 40vw;
+            h2 {
+                margin-top: 15vw;
+                background-color: black;
+                margin-bottom: 3vw;
+                padding: 0.5em;
+            }
+        }
+        .art2 {
+            background-image: url(../img/eu.png);
+            color: white;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 30%;
+            height: 30vw;
+            h2 {
+                margin-top: 15vw;
+                background-color: black;
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+            }
+        }
+        .art3 {
+            background-image: url(../img/jeff.png);
+            background-color: black;
+            color: white;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 30%;
+            height: 20vw;
+            h2 {
+                margin-top: 15vw;
+                background-color: black;
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+            }
+        }
+    }
+    #article2 {
+        display: flex;
+        flex-flow: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        height: 20em;
+        .art4 {
+            background-image: url(../img/polar.png);
+            background-color: black;
+            color: white;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 30%;
+            height: 20vw;
+            h2 {
+                margin-top: 15vw;
+                background-color: black;
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+            }
+        }
+        .art5 {
+            background-image: url(../img/musk.jpg);
+            background-color: black;
+            color: white;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 30%;
+            height: 20vw;
+            h2 {
+                margin-top: 15vw;
+                background-color: black;
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+            }
+        }
+        .art6 {
+            background-image: url(../img/snowden.jpg);
+            background-color: black;
+            color: white;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 30%;
+            height: 20vw;
+            h2 {
+                margin-top: 15vw;
+                background-color: black;
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+            }
+        }
+    }
+}

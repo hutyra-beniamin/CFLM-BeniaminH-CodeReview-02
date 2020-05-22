@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #5B181A;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    .item1 img {
+        width: 15em;
+        padding-left: 1em;
+    }
+    .item2 img {
+        width: 40em;
+    }
+}

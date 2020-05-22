@@ -1,5 +1,370 @@
-* {
-  margin: 0;
-  padding: 0;
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #5B181A;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.header .item1 img {
+  width: 15em;
+  padding-left: 1em;
+}
+
+.header .item2 img {
+  width: 40em;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: black;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-left: 1.5em;
+  font-size: 1.5em;
+}
+
+.date {
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60em;
+}
+
+#container1 #article1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 20em;
+}
+
+#container1 #article1 .art1 {
+  background-image: url(../img/nasa.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  width: 30%;
+  height: 40vw;
+}
+
+#container1 #article1 .art1 h2 {
+  margin-top: 15vw;
+  background-color: black;
+  margin-bottom: 3vw;
+  padding: 0.5em;
+}
+
+#container1 #article1 .art2 {
+  background-image: url(../img/eu.png);
+  color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 30vw;
+}
+
+#container1 #article1 .art2 h2 {
+  margin-top: 15vw;
+  background-color: black;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+#container1 #article1 .art3 {
+  background-image: url(../img/jeff.png);
+  background-color: black;
+  color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 20vw;
+}
+
+#container1 #article1 .art3 h2 {
+  margin-top: 15vw;
+  background-color: black;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+#container1 #article2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 20em;
+}
+
+#container1 #article2 .art4 {
+  background-image: url(../img/polar.png);
+  background-color: black;
+  color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 20vw;
+}
+
+#container1 #article2 .art4 h2 {
+  margin-top: 15vw;
+  background-color: black;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+#container1 #article2 .art5 {
+  background-image: url(../img/musk.jpg);
+  background-color: black;
+  color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 20vw;
+}
+
+#container1 #article2 .art5 h2 {
+  margin-top: 15vw;
+  background-color: black;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+#container1 #article2 .art6 {
+  background-image: url(../img/snowden.jpg);
+  background-color: black;
+  color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 20vw;
+}
+
+#container1 #article2 .art6 h2 {
+  margin-top: 15vw;
+  background-color: black;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.heading {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6F6F6F;
+  background-color: #DDDDDD;
+  padding-left: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.banner3 img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -8em;
+  margin-bottom: 4em;
+  width: 60%;
+}
+
+#container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  margin-left: 3em;
+  margin-bottom: 5em;
+}
+
+#container2 .artcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+#container2 .artcon #article3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 6.5em;
+}
+
+#container2 .artcon #article3 .art7 {
+  background-image: url(../img/iphone.png);
+  background-color: black;
+  color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 20vw;
+}
+
+#container2 .artcon #article3 .art7 h2 {
+  margin-top: 17vw;
+  background-color: black;
+  padding-left: 0.5em;
+}
+
+#container2 .artcon #article3 .art8 {
+  background-image: url(../img/smart.png);
+  background-color: black;
+  color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 20vw;
+}
+
+#container2 .artcon #article3 .art8 h2 {
+  margin-top: 17vw;
+  background-color: black;
+  padding-left: 0.5em;
+}
+
+#container2 .artcon #article4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#container2 .artcon #article4 .art9 {
+  background-image: url(../img/one.png);
+  background-color: black;
+  color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 20vw;
+}
+
+#container2 .artcon #article4 .art9 h2 {
+  margin-top: 17vw;
+  background-color: black;
+  padding-left: 0.5em;
+}
+
+#container2 .artcon #article4 .art10 {
+  background-image: url(../img/phone.png);
+  background-color: black;
+  color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 20vw;
+}
+
+#container2 .artcon #article4 .art10 h2 {
+  margin-top: 17vw;
+  background-color: black;
+  padding-left: 0.5em;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #foot1 img {
+  margin-right: 2em;
+}
+
+body aside img {
+  height: 47em;
+  width: 13em;
+  padding-left: 1em;
 }
 /*# sourceMappingURL=style.css.map */

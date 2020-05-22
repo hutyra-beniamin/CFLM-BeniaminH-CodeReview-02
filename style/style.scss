@@ -1,6 +1,20 @@
-* {
-    margin: 0;
-    padding: 0;
+$fontfamily: Arial,
+Helvetica,
+sans-serif;
+$headerBcolor: #DDDDDD;
+$headerFcolor: #6F6F6F;
+@import "./header";
+@import "./navbar";
+@import "./date";
+@import "./container1";
+@import "./heading";
+@import "./banner3";
+@import "./container2";
+@import "./footer";
+body {
+    aside img {
+        height: 47em;
+        width: 13em;
+        padding-left: 1em;
+    }
 }
-
-body {}

@@ -1,0 +1,79 @@
+#container2 {
+    display: flex;
+    flex-flow: row;
+    margin-left: 3em;
+    margin-bottom: 5em;
+    .artcon {
+        display: flex;
+        flex-flow: column;
+        #article3 {
+            display: flex;
+            flex-flow: row;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-bottom: 6.5em;
+            .art7 {
+                background-image: url(../img/iphone.png);
+                background-color: black;
+                color: white;
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 40%;
+                height: 20vw;
+                h2 {
+                    margin-top: 17vw;
+                    background-color: black;
+                    padding-left: 0.5em;
+                }
+            }
+            .art8 {
+                background-image: url(../img/smart.png);
+                background-color: black;
+                color: white;
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 40%;
+                height: 20vw;
+                h2 {
+                    margin-top: 17vw;
+                    background-color: black;
+                    padding-left: 0.5em;
+                }
+            }
+        }
+        #article4 {
+            display: flex;
+            flex-flow: row;
+            justify-content: space-evenly;
+            align-items: center;
+            .art9 {
+                background-image: url(../img/one.png);
+                background-color: black;
+                color: white;
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 40%;
+                height: 20vw;
+                h2 {
+                    margin-top: 17vw;
+                    background-color: black;
+                    padding-left: 0.5em;
+                }
+            }
+            .art10 {
+                background-image: url(../img/phone.png);
+                background-color: black;
+                color: white;
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 40%;
+                height: 20vw;
+                h2 {
+                    margin-top: 17vw;
+                    background-color: black;
+                    padding-left: 0.5em;
+                }
+            }
+        }
+    }
+}
