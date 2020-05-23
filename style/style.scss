@@ -1,20 +1,61 @@
-$fontfamily: Arial,
-Helvetica,
-sans-serif;
-$headerBcolor: #DDDDDD;
-$headerFcolor: #6F6F6F;
-@import "./header";
-@import "./navbar";
-@import "./date";
-@import "./container1";
-@import "./heading";
-@import "./banner3";
-@import "./container2";
-@import "./footer";
-body {
-    aside img {
-        height: 47em;
-        width: 13em;
-        padding-left: 1em;
+    $fontfamily: Arial,
+    Helvetica,
+    sans-serif;
+    $headerBcolor: #DDDDDD;
+    $headerFcolor: #6F6F6F;
+    @import "./header";
+    @import "./navbar";
+    @import "./date";
+    @import "./container1";
+    @import "./heading";
+    @import "./banner3";
+    @import "./container2";
+    @import "./footer";
+    body {
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: $fontfamily;
+        }
+        aside img {
+            height: 47em;
+            width: 13em;
+            padding-left: 1em;
+        }
+        #mobile-banner img {
+            display: none;
+        }
     }
-}
+    
+    @media (max-width: 480px) {
+        body {
+            #mobile-banner img {
+                display: flex;
+            }
+            .date {
+                display: none;
+            }
+            .item2 {
+                display: none;
+            }
+            aside {
+                display: none;
+            }
+            .banner3 img {
+                display: none;
+            }
+            #container1 {
+                display: flex;
+                flex-flow: column;
+            }
+            #container2 {
+                display: flex;
+                flex-flow: column;
+                flex-wrap: wrap;
+                margin-bottom: 1em;
+                padding-bottom: 1em;
+                margin-top: -2em;
+                padding-top: -2em;
+            }
+        }
+    }

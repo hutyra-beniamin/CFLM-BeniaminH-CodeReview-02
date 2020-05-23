@@ -5,7 +5,18 @@
     background-color: black;
     padding-top: 2em;
     padding-bottom: 2em;
+    nav {
+        display: flex;
+        flex-flow: row;
+    }
+    #navul {
+        display: flex;
+        flex-flow: row;
+        list-style: none;
+    }
     a {
+        display: flex;
+        flex-flow: row;
         text-decoration: none;
         font-family: $fontfamily;
         color: white;

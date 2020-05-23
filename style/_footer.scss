@@ -4,9 +4,17 @@ footer {
     background-color: black;
     color: white;
     font-family: $fontfamily;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    #foot1 img {
-        margin-right: 2em;
+    #foot1 {
+        padding-bottom: 1.5em;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .foot2 {
+        padding-bottom: 1em;
+        margin-bottom: 1em;
     }
 }
