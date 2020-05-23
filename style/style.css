@@ -408,6 +408,10 @@ footer .foot2 {
   margin-bottom: 1em;
 }
 
+body {
+  font-size: 1vw;
+}
+
 body a {
   text-decoration: none;
   color: white;
@@ -424,7 +428,49 @@ body #mobile-banner img {
   display: none;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
+  body #mobile-banner img {
+    display: none;
+  }
+  body .date {
+    display: none;
+  }
+  body .item2 {
+    display: none;
+  }
+  body aside {
+    display: none;
+  }
+  body .banner3 img {
+    display: none;
+  }
+  body #container1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  body #container2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    margin-top: -2em;
+    padding-top: -2em;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 780px) {
   body #mobile-banner img {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -465,6 +511,12 @@ body #mobile-banner img {
     padding-bottom: 1em;
     margin-top: -2em;
     padding-top: -2em;
+  }
+}
+
+@media screen and (min-width: 781px) {
+  body #mobile-banner img {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */

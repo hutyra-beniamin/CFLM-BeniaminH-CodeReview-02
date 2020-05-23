@@ -12,6 +12,7 @@
     @import "./container2";
     @import "./footer";
     body {
+        font-size: 1vw;
         a {
             text-decoration: none;
             color: white;
@@ -27,7 +28,40 @@
         }
     }
     
-    @media (max-width: 480px) {
+    @media screen and (max-width: 480px) {
+        body {
+            #mobile-banner img {
+                display: none;
+            }
+            .date {
+                display: none;
+            }
+            .item2 {
+                display: none;
+            }
+            aside {
+                display: none;
+            }
+            .banner3 img {
+                display: none;
+            }
+            #container1 {
+                display: flex;
+                flex-flow: column;
+            }
+            #container2 {
+                display: flex;
+                flex-flow: column;
+                flex-wrap: wrap;
+                margin-bottom: 1em;
+                padding-bottom: 1em;
+                margin-top: -2em;
+                padding-top: -2em;
+            }
+        }
+    }
+    
+    @media screen and (min-width: 481px) and (max-width:780px) {
         body {
             #mobile-banner img {
                 display: flex;
@@ -56,6 +90,14 @@
                 padding-bottom: 1em;
                 margin-top: -2em;
                 padding-top: -2em;
+            }
+        }
+    }
+    
+    @media screen and (min-width:781px) {
+        body {
+            #mobile-banner img {
+                display: none;
             }
         }
     }
